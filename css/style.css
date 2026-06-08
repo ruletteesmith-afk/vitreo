@@ -1,21 +1,19 @@
 
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Segoe UI,sans-serif;background:#0f172a;color:#fff}
-.hero{min-height:100vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.7)),url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80');background-size:cover;background-position:center}
-.nav{display:flex;justify-content:space-between;padding:30px 50px}
-.nav a{color:#fff;text-decoration:none;margin-left:20px}
-.logo{font-weight:700;letter-spacing:2px}
-.hero-content{text-align:center;padding-top:22vh}
-.hero-content h1{font-size:4rem}
-.btn{display:inline-block;margin-top:20px;padding:14px 30px;background:#38bdf8;color:#fff;text-decoration:none;border-radius:40px}
-.section{padding:80px 20px;background:#111827}
-.container{max-width:1100px;margin:auto}
-.container h2{text-align:center;margin-bottom:20px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;padding:60px;background:#1e293b}
-.stat{text-align:center;padding:25px;background:#0f172a;border-radius:12px}
-.stat h3{color:#38bdf8}
+body{font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#fff;line-height:1.7}
+nav{display:flex;justify-content:space-between;align-items:center;padding:25px 50px}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.logo{font-weight:700;letter-spacing:3px}
+.hero{min-height:100vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),url('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1800&q=80');background-size:cover;background-position:center}
+.hero-content{text-align:center;padding-top:25vh}
+.hero-content h1{font-size:4rem;max-width:900px;margin:auto}
+.hero-content p{font-size:1.3rem;margin-top:20px}
+.content,.products,.contact{padding:80px 8%}
+.content{background:#111827}
+.content h2,.products h1,.contact h1{text-align:center;margin-bottom:30px}
 .page-header{background:#020617}
-.contact-wrap{display:flex;justify-content:center;align-items:center;min-height:80vh;padding:30px}
-.contact-card{background:#fff;color:#111827;padding:50px;border-radius:20px;max-width:700px;width:100%}
-.contact-item{margin-top:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+.card{background:rgba(255,255,255,.08);backdrop-filter:blur(12px);padding:30px;border-radius:18px;border:1px solid rgba(255,255,255,.1)}
+.card h3{color:#38bdf8;margin-bottom:10px}
+.contact-card{max-width:700px;margin:auto;background:#fff;color:#111827;padding:50px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
 footer{text-align:center;padding:25px;background:#020617}
